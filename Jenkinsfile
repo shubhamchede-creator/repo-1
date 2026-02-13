@@ -1,10 +1,11 @@
-pipeline{
-  agent any
-  stages{
-    stage('one'){
-      steps{
-        sleep 10
-      }
-  }
+pipeline {
+    agent any
+
+    stages {
+        stage('Test') {
+            steps {
+                echo "Pipeline is working"
+            }
+        }
     }
 }
