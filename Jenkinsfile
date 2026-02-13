@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sleep 10
+                echo "This is Feature Branch"
             }
         }
     }
